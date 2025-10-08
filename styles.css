@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.title-wrapper {
+    background-color: aliceblue;
+    width:fit-content;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin: auto;
+}
+
+.project-card-link {
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+.project-card-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.project-wrapper {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+}
+
+
+.project-tags {
+    font-style: italic;
+}
