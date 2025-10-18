@@ -4,92 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piotr Ratkowski's Portfolio</title>
+    <title>Portfolio - Piotr Ratkowski</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="title-wrapper">
-        <h1>Piotr Ratkowski's Portfolio</h1>
-    </div>
-
-    <h2>My Projects</h2>
-
-    <div class="project-wrapper">
-        <a class="project-card-link" target="_blank" rel="noopener noreferrer"
-            href="https://minimag-digidoo-dtg7hye3b0g8cef2.polandcentral-01.azurewebsites.net/">
-            <div class="project-info-content">
-                <h3>MiniMag Warehouse WebApp</h3>
-                <img class="project-image" src="images/minimag.png" alt="MiniMag Thumbnail">
-                <p class="project-description">A tiny application for keeping track of items in a warehouse. CRUD operations for items and suppliers,
-                    handling intakes and issues.</p>
-                <p class="project-tags">C#, ASP.NET Core MVC, EF Core, Azure</p>
+     <!-- ====== HEADER ====== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Piotr Ratkowski</h1>
+                <img src="images/Digidoo.png" alt="Digidoo Logo">
             </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/digidoo-dev/MiniMag">Go to repository</a>
+            
+            <nav>
+                <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <!-- ====== HERO SECTION ====== -->
+  <section class="hero">
+    <div class="container">
+      <h2>Hello 👋</h2>
+      <p>I am a selft taught programmer. I develop games and everyday use apps. 
+      Please feel free to browse and try out my projects!</p>
+      <a href="#projects" class="btn">Browse Projects</a>
     </div>
+  </section>
 
-    <div class="project-wrapper">
-        <a class="project-card-link" target="_blank" rel="noopener noreferrer"
-            href="https://play.unity.com/en/games/9d736a15-d049-4244-ab11-7244bf402100/frog-skip">
-            <div class="project-info-content">
-                <h3>Frog Skip Game</h3>
-                <img class="project-image" src="images/Frog_Skip_Logo.png" alt="Frog Skip Game Logo">
-                <p class="project-description">A casual multiplayer game built in Unity using Unity's Multiplayer
-                    Services and the Netcode for GameObjects package.</p>
-                <p class="project-tags">Unity, C#, Multiplayer</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/digidoo-dev/Frog-Skip-Game">Go to repository</a>
+   <!-- ====== PROJECTS SECTION ====== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div id="projects-container" class="projects-grid">
+        <!-- Projekty będą generowane automatycznie przez JS -->
+      </div>
     </div>
+  </section>
 
 
-    <div class="project-wrapper">
-        <a class="project-card-link" target="_blank" rel="noopener noreferrer"
-            href="https://play.unity.com/en/games/3cdd8184-d6b9-400b-a632-723f6ce0f550/the-kings-will">
-            <div class="project-info-content">
-                <h3>The King's Will Game (Work in progress)</h3>
-                <img class="project-image" src="images/the_kings_will_title.jpg" alt="The King's Will Game Title">
-                <p class="project-description">A city building game I am currently working on.</p>
-                <p class="project-tags">Unity, C#</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/digidoo-dev/TheKingsWill-Game">Go to repository</a>
+    <!-- ====== CONTACT / FOOTER ====== -->
+  <footer id="contact">
+    <div class="container">
+      <p>© 2025 Piotr Ratkowski</p>
+      <div class="socials">
+        <a href="https://github.com/digidoo-dev">GitHub</a>
+        <a href="mailto:piotr.ratkowski.dev@gmail.com">Email</a>
+      </div>
     </div>
-
-
-    <div class="project-wrapper">
-        <a class="project-card-link" target="_blank" rel="noopener noreferrer"
-            href="https://digidoo-dev.github.io/Paint-Math/">
-            <div class="project-info-content">
-                <h3>Paint Math Web App</h3>
-                <img class="project-image" src="images/paint_math.png" alt="Paint Math Thumbnail">
-                <p class="project-description">A web app that paints mathematical equations on a coordinate system.</p>
-                <p class="project-tags">HTML, CSS, JavaScript</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/digidoo-dev/Paint-Math">Go to repository</a>
-    </div>
-
-
-    <div class="project-wrapper">
-        <a class="project-card-link" target="_blank" rel="noopener noreferrer"
-            href="https://digidoo-dev.github.io/connect-four-web-game/">
-            <div class="project-info-content">
-                <h3>Connect Four Web Game</h3>
-                <img class="project-image" src="images/connect_four.png" alt="Connect Four Thumbnail">
-                <p class="project-description">A web game for two players - connect four chips of your color in a row to
-                    win.</p>
-                <p class="project-tags">HTML, CSS, JavaScript</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/digidoo-dev/connect-four-web-game">Go to repository</a>
-    </div>
-
+  </footer>
+ 
+    <!-- ====== SCRIPT ====== -->
+    <script src="script.js"></script>
 </body>
 
 </html>
