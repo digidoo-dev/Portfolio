@@ -1,4 +1,12 @@
 const projects = [
+    {
+    title: "ShopLite Online Shop Web App",
+    description: "Clear interface and a bit more than just basic functionality. Shopping cart working with session data, filtering and sorting products and a fully fledged admin panel.",
+    image: "images/shopLite.png",
+    tags: ["C#", "ASP.NET Core MVC", "EF Core", "Azure"],
+    liveUrl: "https://shoplite-digidoo-g7hybdamecbbfbfj.polandcentral-01.azurewebsites.net/",
+    repoUrl: "https://github.com/digidoo-dev/ShopLite"
+  },
   {
     title: "MiniMag Warehouse Web App",
     description: "A tiny application for keeping track of items in a warehouse. CRUD operations for items and suppliers, handling intakes and issues.",
